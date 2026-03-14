@@ -40,7 +40,7 @@ if (!body) {
                             // 这里的 0.5 代表难度/属性降为原来的 50%。
                             // Math.max(1, ...) 确保削弱后的数值最低不会小于 1。
                             if (typeof monster[1] === 'number') {
-                                monster[1] = Math.max(1, Math.floor(monster[1] * 0.1)); 
+                                monster[1] = Math.max(1, Math.floor(monster[1] * 0.01)); 
                             }
                             
                             // 【注意】去掉了原版的 monster[2] = 1
