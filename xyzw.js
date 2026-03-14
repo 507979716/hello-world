@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # >咸鱼之王 - 通用配置修改（敌伤害=1,血量=1）
-^https?:\/\/xxz-xyzw-res\.hortorgames\.com\/remote\/config\/import\/10 url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xyzw.js
+^https?:\/\/xxz-xyzw-res\.hortorgames\.com\/remote\/config\/import\/10 url script-response-body https://raw.githubusercontent.com/507979716/hello-world/refs/heads/master/xyzw.js
 
 [mitm]
 hostname = xxz-xyzw-res.hortorgames.com
