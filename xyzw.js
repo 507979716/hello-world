@@ -1,15 +1,7 @@
 /*
  *
  *
-脚本功能：咸鱼之王 - 通用配置修改（敌伤害=1,血量=1）
-软件版本：微信小程序 (需要通过新手教程=通关10层)
-下载地址：
-脚本作者：
-更新时间：2026年
-电报频道：https://t.me/GieGie777
-问题反馈：
-使用声明：此脚本仅供学习与交流，请在下载使用24小时内删除！请勿在中国大陆转载与贩卖！
-*******************************
+
 [rewrite_local]
 # >咸鱼之王 - 通用配置修改（敌伤害=1,血量=1）
 ^https?:\/\/xxz-xyzw-res\.hortorgames\.com\/remote\/config\/import\/10 url script-response-body https://raw.githubusercontent.com/507979716/hello-world/refs/heads/master/xyzw.js
