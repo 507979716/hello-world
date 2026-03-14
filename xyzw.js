@@ -35,13 +35,7 @@ if (!body) {
                 if (Array.isArray(wave)) {
                     wave.forEach(monster => {
                         if (Array.isArray(monster) && monster.length >= 3) {
-                            
-                            // 【核心修改点：按比例削弱难度】
-                            // 这里的 0.5 代表难度/属性降为原来的 50%。
-                            // Math.max(1, ...) 确保削弱后的数值最低不会小于 1。
-                            if (typeof monster[1] === 'number') {
-                                monster[1] = Math.max(1, Math.floor(monster[1] * 0.01)); 
-                            }
+                            if (typeof monster[1] === 'number') monster[1] = 3;
                             
                             // 【注意】去掉了原版的 monster[2] = 1
                             // 保持怪物数量不变，这样通关总伤害就能过服务端的校验了
